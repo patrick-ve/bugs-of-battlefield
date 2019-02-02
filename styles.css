@@ -69,19 +69,44 @@ header {
   }
 
 main {
-  height: 80vh;
+  height: 85vh;
   width: 100vw;
 }
 
   main video {
     display: block;
-    margin: 7.5% auto;
+    margin: 2.5% auto 2.5% auto;
     height: 80%;
     width: auto;
     -webkit-box-shadow: 10px 10px 90px 0px rgba(0,0,0,0.47);
     -moz-box-shadow: 10px 10px 90px 0px rgba(0,0,0,0.47);
     box-shadow: 10px 10px 90px 0px rgba(0,0,0,0.47);
   }
+
+  main div {
+    max-width: 35%;
+    position: relative;
+    margin: 0 auto;
+  }
+
+    main div button {
+      display: inline-block;
+      margin: 0 auto;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.5em;
+      color: red;
+      background-color: Gold;
+      border-radius: 8px;
+      padding: 2.5%;
+      -webkit-box-shadow: 5px 5px 45px 0px rgba(0,0,0,0.47);
+      -moz-box-shadow: 5px 5px 45px 0px rgba(0,0,0,0.47);
+      box-shadow: 5px 5px 45px 0px rgba(0,0,0,0.47);
+      cursor: pointer;
+    }
+
+    main div button:focus {
+      outline: none;
+    }
 
 footer {
   height: 20vh;
